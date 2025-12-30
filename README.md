@@ -1,6 +1,4 @@
-# station-monitor
-
-# Station Monitor
+# Station-monitor
 
 # Web-based monitoring system for remote seismic stations
 
