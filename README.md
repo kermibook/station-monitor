@@ -1,6 +1,6 @@
 # Station-monitor
 
-A Web-based monitoring system for remote seismic stations
+A web-based monitoring system for remote seismic stations
 
 # Overview
 Station Monitor is a web application developed to monitor the operational status and health of remote seismic stations deployed in industrial and operational seismic networks.
