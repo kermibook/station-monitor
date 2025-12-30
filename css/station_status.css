@@ -1,0 +1,284 @@
+/* body { background: #669966; } */
+
+a:link    {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: black;}
+a:hover   {color: white;}
+
+
+
+table.tbElenco
+{
+  padding: 3px;
+  /*//table-layout: inherit;*/
+  border: 2px solid #C2C2C2;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 3px 3px 3px #dedede;
+
+  font-family: verdana, arial, tahoma;
+  font-size: 10px;
+  color: #000000;
+  border-spacing: 1px;
+}
+
+table.tbElenco th
+{
+  Background: #808080;
+  border-radius: 3px 3px 3px 3px;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-right: 12px;  
+  padding-left: 12px;    
+  padding-top: 0px; 
+}
+
+table.tbElenco th.energy-dark {
+  background:rgb(64, 68, 126); 
+}
+table.tbElenco th.energy {
+  background:rgb(82, 125, 188); 
+}
+table.tbElenco th.signal-dark {
+  background:rgb(126, 64, 125); 
+}
+table.tbElenco th.signal {
+  background:rgb(188, 82, 184); 
+}
+table.tbElenco th.env-dark {
+  background:rgb(64, 126, 67); 
+}
+table.tbElenco th.env {
+  background:rgb(82, 188, 110); 
+}
+table.tbElenco th.data-dark {
+  background:rgb(123, 126, 64); 
+}
+table.tbElenco th.data {
+  background:rgb(176, 188, 82); 
+}
+table.tbElenco th.relay-dark {
+  background:rgb(125, 125, 123); 
+}
+table.tbElenco th.relay {
+  background:rgb(183, 183, 180); 
+}
+
+table.tbElenco th.banner {
+  background:white;  
+  padding-right: 0px;  
+  padding-left: 0px;   
+}  
+
+table.tbElenco th.banner img {
+  max-width: 100%;
+  max-height: 100%;
+  }
+  
+  th#banner {
+  width: 68.6em;
+  border: 0px solid #C2C2C2;;
+  margin-bottom:4px;
+  border-radius: 6px 6px 6px 6px;
+  /*box-shadow: 3px 3px 3px #dedede;*/
+  }
+  
+
+
+
+table.tbElenco td.hostname
+{
+  border-radius: 4px 1px 1px 4px;
+  text-align: center;
+  padding: 0px;
+  background: #D3D3D3;
+  color: black;
+}
+
+table.tbElenco td.cfg
+{
+  text-align: center;
+  padding: 1.5px;
+}
+
+table.tbElenco td.sig_ico
+{
+  text-align: center;
+  padding: 1.5px;
+  background: #FFFFFF;
+}
+
+table.tbElenco td.charge_ico
+{
+  text-align: center;
+  padding: 1.5px;
+  background: #FFFFFF;
+}
+
+table.tbElenco 
+{   	
+  text-align: center;
+  padding: 1.5px;
+  width:5.0%; height:auto;
+  /* background: #FFFFFF; */
+}
+
+td.ico
+{
+  text-align: center;
+  padding: 0px;
+  min-width:40px;
+  /*height:20px; width:auto;*/
+}
+
+td.ico-signal
+{
+  text-align: center;
+  padding: 0px;
+  min-width:0px;
+  /*height:20px; width:auto;*/
+}
+
+td.ico img 
+{ width: 45%; }
+
+td.ico-batt img
+{ width: 70%; }
+
+td.ico-powout img
+{ width: 70%; }
+
+td.ico-signal img
+{ width: 35%; }
+
+td.ico-signal-qly img
+{ width: 55%; }
+
+td.ico-relay-button img
+{ width: 100%; }
+
+td.ico-temp img
+{ width: 40%; }
+
+td.ico-temp-cpu img
+{ width: 43%; }
+
+table.tbElenco td.ds_ico
+{
+  text-align: center;
+  padding: 1.5px;
+  /*background: #FFFFFF;*/
+}
+
+table.tbElenco td
+{
+  text-align: center;
+}
+
+
+table.tbElenco td.stats
+{
+  border:1px solid lightgrey;
+  border-collapse: separate;  
+  border-spacing: 10px 5px;
+  color: black;
+  border-radius: 3px 3px 3px 3px;
+}
+
+table.tbElenco tr.normale	{ background: #FFFFFF; }
+table.tbElenco tr.alternata	{ background: #E6EBEE; }
+table.tbElenco tr.evidenziata	{ background: #FFFF00; }
+
+/* #status { border:1px solid black; } */
+td.status 
+{
+  /*border:1px solid red;*/
+  border:1px solid lightgrey;
+  border-radius: 3px 3px 3px 3px;
+  background: black;
+  /*min-height:100px;*/
+  height:30px;
+  color:lightgrey;
+} 
+
+td.prog_bar 
+{
+  position:relative;
+  padding: 0px;
+  border:0px;
+  /*background: black;*/
+  height:1px;
+  text-align: left;
+}
+
+progress[value]
+{
+-moz-appearance: none;
+appearance: none;
+border: none;                /* Firefox also renders a border */
+progress::-moz-progress-bar { background: green; }
+progress::-webkit-progress-value { background: green; }
+progress::-webkit-progress-bar {background-color: #000; width: 100%;}
+progress { color: blue; }
+position:relative;
+width: 60px;
+height: 4px;
+/*height: 10px;
+padding: 0px;
+margin: 0px;*/
+border-radius: 2px;
+}
+
+#myProgress0 {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 2px;
+}
+
+#myProgress1 {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 2px;
+}
+
+#myProgress2 {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 2px;
+}
+
+#myBar0{
+  width: 100%;
+  height: 6px;
+  background-color: lightgrey; 
+  border-radius: 1px;
+}
+
+#myBar1{
+  width: 100%;
+  height: 6px;
+  background-color: lightgrey; 
+  border-radius: 1px;
+}
+
+#myBar2{
+  width: 100%;
+  height: 6px;
+  background-color: lightgrey; 
+  border-radius: 1px;
+}
+
+th#banner img {
+max-width: 99%;
+max-height: 99%;
+padding: 0px;
+padding-top: 0px;
+}
+
+th#banner {
+width: 68.6em;
+border: 0px solid #C2C2C2;;
+margin-bottom:4px;
+border-radius: 6px 6px 6px 6px;
+/*box-shadow: 3px 3px 3px #dedede;*/
+}
+
+
