@@ -31,10 +31,12 @@ The software was developed for real-world monitoring scenarios, where reliabilit
  
 # Logical Architecture
 The logical architecture is organized around three main functional layers: data acquisition, backoffice processing, and data visualization, all interacting through a centralized database.
+
 ![Logical architecture](docs/logical-architecture.png)
  
 # Physical Architecture
 From a physical perspective, the system follows a classic client–server architecture, with secure HTTPS communication, scheduled background tasks, and server-side data processing.
+
 ![Physical architecture](docs/physical-architecture.png)
  
 # Technical Stack
